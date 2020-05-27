@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'pi1-eafit-db',                     
         'USER': 'samorenoq@pi1-eafit-db-samorenoq',                     
-        'PASSWORD': '',                  
+        'PASSWORD': 'hwpGWS87',                  
         'HOST': 'pi1-eafit-db-samorenoq.mysql.database.azure.com',                     
         'PORT': '3306',
     }
