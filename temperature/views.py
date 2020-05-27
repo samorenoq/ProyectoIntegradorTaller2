@@ -18,7 +18,7 @@ def temperature(request):
 
     # Realiza una petición GET al Web Services
     response = requests.get('http://127.0.0.1:8000/temperature/')
-    response = requests.get('https://pi1-eafit-samorenoq.azurewebsites.net/temperature')
+    response = requests.get('http://pi1-eafit-samorenoq.azurewebsites.net/temperature/')
     # Convierte la respuesta en JSON
     temperatures = response.json()
     return render(request, "temperature/temperature.html", {"temperatures" : temperatures})
